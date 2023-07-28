@@ -1,0 +1,235 @@
+ .container {
+    padding-top: 2rem;
+    overflow-x: hidden;
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  .container .grid {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+.section-hero-data {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%
+  }
+  .btn {
+    width: 100%;
+  }
+  .hero-top-data {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #adb0d1;
+    
+  }
+  .hero-heading {
+    text-transform: uppercase;
+    font-size:  clamp(6.4rem,3.5vw,3.2rem);
+    font-weight: 600!important;
+    /* line-height: 100%!important; */
+    letter-spacing: -0.rem;
+    margin: 0 0 10px;
+    color: #fff;    
+    
+    
+    
+  }
+  .hero-para {
+    margin-top: 1.5rem;
+    margin-bottom: 3.4rem;
+    max-width: 60rem;
+    font-size: clamp(1.5rem,1.2vw,1.25rem);
+    font-family: Poppins,sans-serif;
+    font-weight:500;
+    letter-spacing: 1px;
+    opacity: .7;
+  }
+  .section-hero-image {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    background: url(../../public/images/7.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: center;
+  }
+  .section-hero-image img{
+    padding-top: 13rem;
+  }
+  picture {
+    text-align: center;
+  }
+  .hero-img {
+    max-width: 80%;
+  }
+
+
+  #exp{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+#exp .exp
+{
+    width:80%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2) !important;
+    margin-bottom: 5rem;
+}
+#exp .exp .title
+{
+    margin-top: 5rem;
+    text-align: center;
+    color: #fff;
+}
+#exp .exp .title h1{
+    background: linear-gradient(45deg, #00c0ff 0%, #ff014f 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    font-weight: 150;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+#exp .exp .title h2{
+    font-weight: 150;
+    font-size: 2rem;
+    margin: 15px;
+    padding: 0;
+    color:#fff;
+}
+
+#exp .exp .feild{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 1rem 5rem 1rem;
+    gap:5px
+    
+}
+
+#exp .exp .feild .ff{
+    width: 33%;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #07495f9d;
+
+}
+#exp .exp .feild .ffe{
+    border: none;
+    /* border-right: 2px solid #07495fc7; */
+
+}
+
+#exp .exp .feild .ff .logo{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#exp .exp .feild .ff .logo img{
+    width: 100px;
+    height:100px;
+}
+#exp .exp .feild .ff .info{
+    margin-left: 10px;
+    color: #fff;
+}
+#exp .exp .feild .ff .info h3{
+    font-size: 1.80rem;
+    font-weight: 300;
+    letter-spacing: 1.80px;
+    margin-bottom: 5px;
+}
+#exp .exp .feild .ff .info p{
+    padding-top: 1rem;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: Poppins,sans-serif;;
+
+}
+#exp .image{
+    position: absolute;
+    right: 3%;
+    top: 1130px;
+    max-width:300px;
+    padding: 0;
+    margin:0;
+} 
+
+
+
+@media (max-width:1000px) {
+    .container .grid {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      } 
+      .section-hero-data {
+        width:80%;
+        /* align-items: center; */
+        justify-content: center;
+      }
+      .section-hero-image {
+        width:80%;
+      }
+      #exp .image{
+        top: 1680px;
+    } 
+}
+
+@media (max-width:800px) {
+      .section-hero-data {
+        width:80%;
+        /* align-items: center; */
+        justify-content: center;
+      }
+      .section-hero-image {
+        width:80%;
+      }
+      #exp .image{
+        top: 1680px;
+    } 
+    #exp .exp .feild{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #exp .exp .feild .ff{
+        width:100%;
+        padding-bottom: 1rem;
+        border-right: none;
+        border-bottom: 1px solid #07495f9d;
+
+    }
+    #exp .exp .feild .ffe{
+        border:none;
+    }
+    #exp .image{
+        display: none;
+    } 
+}
+
+@media(max-width:650px){
+    .section-hero-image{
+        background-size: 400px;
+    }
+}
+
+@media(max-width:550px){
+    .hero-heading {
+        font-size:  clamp(4.4rem,3.5vw,3.2rem);;
+      }
+}
