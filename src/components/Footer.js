@@ -9,7 +9,7 @@ const Footer = () => {
       <a href = "mailto: devarshworking@gmail.com" target='_blank' className="link">
         <i class="fa-regular fa-envelope"></i>
       </a>
-      <NavLink to="https://www.linkedin.com/in/devarsh-ramesh-chandiwade-7423a624a"  target='_blank'className="link">
+      <NavLink to="https://www.linkedin.com/in/devarsh-chandiwade"  target='_blank'className="link">
       <i class="fa-brands fa-linkedin-in"></i>
       </NavLink>
       <NavLink to="https://wa.me/qr/ENH6PNJC5JIIH1" target='_blank' className="link">

@@ -41,7 +41,7 @@ function App() {
    {/* <ThemeProvider theme={theme}> */}
    <Header/>
    <Routes>
-   <Route path="/" element={<Home/>}/>
+   <Route path="/Devarsh-Portfolio" element={<Home/>}/>
    <Route path="/About" element={<About/>}/>
    <Route path="/Work" element={<Service/>}/>
    <Route path="/Contact" element={<Contact/>}/>

@@ -1,0 +1,7 @@
+/* body{
+    background-image: url(banner-2.jpg);
+} */
+
+body{
+    background-image: url(../public/images/banner-2.jpg);
+}

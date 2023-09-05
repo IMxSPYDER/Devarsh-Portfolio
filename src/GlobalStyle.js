@@ -19,7 +19,9 @@ body {
     overflow-x: hidden;
     scrollbar-color: rgb(98 84 243);
     scrollbar-width: thin;
-    background: url(./images/banner-2.jpg);
+    ${'' /* background: url(./images/banner-2.jpg); */}
+    ${'' /* background:rgb(98 84 243); */}
+    
     background-repeat: no-repeat;
     background-size:cover;
     background-position: fixed;

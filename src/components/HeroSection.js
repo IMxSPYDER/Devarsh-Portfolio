@@ -10,6 +10,7 @@ import logo from "./devarsh-removebg2.png"
 import web from "./web-development.png"
 import app from "./app-development.png"
 import fullstack from "./full-stack-dev.png"
+import Line from '../Curve_line.png'
 
 
 const HeroSection = () => {
@@ -80,7 +81,7 @@ const HeroSection = () => {
 
     </div>
     <div className="image">
-            <img src="https://validthemes.live/themeforest/ambrox/assets/img/shape/1-light.png" alt="img"/>
+            <img src={Line} alt="img"/>
         </div> 
 </div> 
         

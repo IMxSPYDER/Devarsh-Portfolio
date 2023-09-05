@@ -107,7 +107,13 @@
     height: auto;
     justify-content: center;
     align-items: center;
-    background: url(https://validthemes.live/themeforest/ambrox/assets/img/shape/9.png);
+
+    /* background: url(https://validthemes.live/themeforest/ambrox/assets/img/shape/9.png); */
+
+    background: url(Circle.png);
+   
+
+
     background-repeat: no-repeat;
     background-size: 600px;
     background-position: center;

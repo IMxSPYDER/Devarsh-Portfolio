@@ -6,7 +6,7 @@ import Navbar from './Navbar'
 const Header = () => {
   return (
     <MainHeader>
-        <NavLink to="/">
+        <NavLink to="/Devarsh-Portfolio">
         <h2><span>D</span>evarsh.</h2>
             {/* <img src="https://github.com/thapatechnical/reactmultipage/blob/main/public/images/logo.png?raw=true" alt="hi" className='logo'/> */}
         </NavLink>
