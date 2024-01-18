@@ -48,6 +48,11 @@
     letter-spacing: 1px;
     opacity: .7;
   }
+
+  .hero-para .link{
+    text-decoration: none;
+    color: #00c0ff;
+  }
   .section-hero-image {
     display: flex;
     width: 60%;
@@ -55,7 +60,7 @@
     align-items: center;
     background: url(../../public/images/7.png);
     background-repeat: no-repeat;
-    background-size: 700px;
+    background-size: 85%;
     background-position: center;
   }
   .section-hero-image img{

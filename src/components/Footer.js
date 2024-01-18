@@ -5,7 +5,7 @@ import './Footercss.css'
 const Footer = () => {
   return (
     <div className='footer'>
-    <div className="contact">
+    <div className="ft-contact">
       <a href = "mailto: devarshworking@gmail.com" target='_blank' className="link">
         <i class="fa-regular fa-envelope"></i>
       </a>

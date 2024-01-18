@@ -43,7 +43,7 @@ function App() {
    <Routes>
    <Route path="/Devarsh-Portfolio" element={<Home/>}/>
    <Route path="/About" element={<About/>}/>
-   <Route path="/Work" element={<Service/>}/>
+   <Route path="/Projects" element={<Service/>}/>
    <Route path="/Contact" element={<Contact/>}/>
    </Routes>
    <Footer/>

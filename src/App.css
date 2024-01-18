@@ -3,5 +3,6 @@
 } */
 
 body{
-    background-image: url(../public/images/banner-2.jpg);
+    /* background-image: url(../public/images/banner-2.jpg); */
+    background-color: #0a192f;
 }

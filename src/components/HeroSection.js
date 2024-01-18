@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 // import styled from "styled-components";
 import { Button } from "../styles/Button";
 import "./HeroSection.css";
@@ -12,6 +12,8 @@ import app from "./app-development.png"
 import fullstack from "./full-stack-dev.png"
 import Line from '../Curve_line.png'
 
+import resume from '../components/Devarsh_Resume.pdf'
+
 
 const HeroSection = () => {
 
@@ -19,17 +21,29 @@ const HeroSection = () => {
     <div className="container">
       <div className="grid">
         <div className="section-hero-data">
-          <p className="hero-top-data">THIS IS ME</p>
+          <p className="hero-top-data">Hello! My Name is</p>
           <h1 className="hero-heading">Devarsh Chandiwade</h1>
+
           <p className="hero-para">
-            I'm Frontend Developer with high level of experience in web desingning and development, producting Quality work.
+          An aspiring software engineer with the ability to grow as an individual and learn in the surrounding of talented people.
+
+          I am always open for discussions <Link to="https://www.linkedin.com/in/devarsh-chandiwade/" target="_blank" className="link">@Linkedin.</Link>
           </p>
 
-          <NavLink to="/About" className="btn">
+          {/* <p className="hero-para">
+          Hello! Interestingly, I have been a student of Maths in my high school and got introduced to programming in my freshman year at Dwarkadas .J Sanghvi. My interest in coding started back in 2020 during first year of Diploma . Since then, I started learning programming languages & solving problems based on data structure and algorithms. Most importantly I'm a Problem Solver.
+          <br/>
+          Today, I'm currently pursuing my Bachelors in Computer Science and Engineering (2023-2026) with 8.59 GPA aggregate.
+          <br/>
+          Also I've knowledge of Web Development and created some projects on that using HTML, CSS, Javascript / React.js / Node.js, MongoDB and some other cool libraries and frameworks. I'm also part of some student organisations and Leading one of them.
+  
+          </p> */}
+
+          <a href={resume} download className="btn">
           <Button className="btn hireme-btn">
-             Know More
+             Resume
           </Button>
-          </NavLink>
+          </a>
         </div>
 
         {/* for image  */}

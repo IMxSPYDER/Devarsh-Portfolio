@@ -142,18 +142,18 @@ const Navbar = () => {
             <NavLink
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
-              to="/Work">
+              to="/Projects">
               Work
             </NavLink>
           </li>
-          {/* <li>
+          <li>
             <NavLink
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/contact">
               Contact
             </NavLink>
-          </li> */}
+          </li>
         </ul>
         {/* //nav icon */}
         <div className="mobile-navbar-btn">
