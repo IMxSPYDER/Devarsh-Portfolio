@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/Devarsh-Portfolio/static/css/main.2ca69ba6.css",
-    "main.js": "/Devarsh-Portfolio/static/js/main.14ae4b8c.js",
-    "static/js/787.ce689f02.chunk.js": "/Devarsh-Portfolio/static/js/787.ce689f02.chunk.js",
+    "main.css": "/Devarsh-Portfolio/static/css/main.3a9a2450.css",
+    "main.js": "/Devarsh-Portfolio/static/js/main.a4b6fc55.js",
+    "static/js/787.9c5e822e.chunk.js": "/Devarsh-Portfolio/static/js/787.9c5e822e.chunk.js",
     "static/media/devarsh-removebg2.png": "/Devarsh-Portfolio/static/media/devarsh-removebg2.01786cfd189d5072f315.png",
     "static/media/fade1.png": "/Devarsh-Portfolio/static/media/fade1.08db40323863b02ab512.png",
-    "static/media/banner-2.jpg": "/Devarsh-Portfolio/static/media/banner-2.d7b82d663cfae9b8c769.jpg",
+    "static/media/Devarsh_Resume.pdf": "/Devarsh-Portfolio/static/media/Devarsh_Resume.5ff7cdaf74693e8e83fd.pdf",
     "static/media/Droneairgear.jpeg": "/Devarsh-Portfolio/static/media/Droneairgear.98e883a9e8077af322b9.jpeg",
     "static/media/GPMIIC.jpeg": "/Devarsh-Portfolio/static/media/GPMIIC.aa38dc63afb28f47f35c.jpeg",
     "static/media/7.png": "/Devarsh-Portfolio/static/media/7.106e3f7ceb3f31bf05e3.png",
+    "static/media/OIG.jpg": "/Devarsh-Portfolio/static/media/OIG.b8802f81e27513dc6cfb.jpg",
     "static/media/Circle.png": "/Devarsh-Portfolio/static/media/Circle.d2b7ccc80c700697fbfc.png",
     "static/media/Dobot.jpg": "/Devarsh-Portfolio/static/media/Dobot.2a0832669fb0bc6c9dad.jpg",
     "static/media/voicecloning.jpg": "/Devarsh-Portfolio/static/media/voicecloning.4ad90488a11caeeaca2b.jpg",
     "static/media/web-development.png": "/Devarsh-Portfolio/static/media/web-development.f9d169e80e84e333a6d1.png",
     "static/media/app-development.png": "/Devarsh-Portfolio/static/media/app-development.ec2ba861e4e2f4ceba9d.png",
     "index.html": "/Devarsh-Portfolio/index.html",
-    "main.2ca69ba6.css.map": "/Devarsh-Portfolio/static/css/main.2ca69ba6.css.map",
-    "main.14ae4b8c.js.map": "/Devarsh-Portfolio/static/js/main.14ae4b8c.js.map",
-    "787.ce689f02.chunk.js.map": "/Devarsh-Portfolio/static/js/787.ce689f02.chunk.js.map"
+    "main.3a9a2450.css.map": "/Devarsh-Portfolio/static/css/main.3a9a2450.css.map",
+    "main.a4b6fc55.js.map": "/Devarsh-Portfolio/static/js/main.a4b6fc55.js.map",
+    "787.9c5e822e.chunk.js.map": "/Devarsh-Portfolio/static/js/787.9c5e822e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ca69ba6.css",
-    "static/js/main.14ae4b8c.js"
+    "static/css/main.3a9a2450.css",
+    "static/js/main.a4b6fc55.js"
   ]
 }
