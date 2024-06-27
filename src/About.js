@@ -255,6 +255,20 @@ const About = () => {
                     </p>
                     </li>
                 </li>
+                <li>
+                  <li>
+                    <h4>ReactJS Intern</h4>
+                    <h5>CampaignSwift</h5>
+                    <span>2024-2024</span>
+                    <p>
+                        In 3 months of internship at CampaignSwift.  During my internship at CampaignSwift, I've been actively involved in web development tasks. 
+🔹 Dashboard Development: Creating responsive dashboards using React JS and Material UI.
+🔹 Design & Implementation: Building sleek, user-friendly interfaces.
+🔹 Technical Skills: Troubleshooting and debugging to ensure seamless performance.
+                    
+                    </p>
+                    </li>
+                </li>
                 {/* <li>
                 <li>
                     <h4>Diploma in Information Technology(IT)</h4>
