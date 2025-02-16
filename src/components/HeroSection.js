@@ -12,7 +12,7 @@ import app from "./app-development.png"
 import fullstack from "./full-stack-dev.png"
 import Line from '../Curve_line.png'
 
-import resume from '../components/Devarsh_Resume.pdf'
+import Dresume from '../components/Devarsh_Resume.pdf'
 
 
 const HeroSection = () => {
@@ -39,7 +39,7 @@ const HeroSection = () => {
   
           </p> */}
 
-          <a href={resume} download className="btn">
+          <a href={Dresume} download className="btn">
           <Button className="btn hireme-btn">
              Resume
           </Button>
